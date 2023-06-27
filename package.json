@@ -16,6 +16,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
     "css-minimizer-webpack-plugin": "^5.0.1",
+    "gh-pages": "^5.0.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.7.6",
@@ -37,6 +38,8 @@
   "scripts": {
     "develop": "webpack-dev-server --mode development",
     "start": "webpack serve --mode development",
-    "build": "rimraf dist && webpack --mode production"
+    "build": "rimraf dist && webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
 }

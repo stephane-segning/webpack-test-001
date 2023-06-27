@@ -21,3 +21,9 @@ This is a very basic with typescript and webpack to illustrate how to work HTML5
   yarn build
   ```
   Keep in mind, that this will remove the previous build saved at dist (using rimraf) and create a new one.
+
+- Deploy the code
+  ```bash
+  yarn deploy
+  ```
+  This will build the code and then deploy it on the github branch related to the project.
