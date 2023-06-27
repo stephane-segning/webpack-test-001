@@ -1,0 +1,9 @@
+.vscode
+!.vscode/settings.json
+
+node_modules
+*.log
+*.tgz
+*.rar
+
+dist
