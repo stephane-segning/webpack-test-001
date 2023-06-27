@@ -27,3 +27,5 @@ This is a very basic with typescript and webpack to illustrate how to work HTML5
   yarn deploy
   ```
   This will build the code and then deploy it on the github branch related to the project.
+
+  This site should be deployed at https://stephane-segning.github.io/webpack-test-001.
